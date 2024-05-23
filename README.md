@@ -1,5 +1,5 @@
 # Bald_Classification
-Bald_Classification_using_Cnn
+Bald_Classification_using_CNN
 
 Complete Explanation of the project with code explanation: [Code Explanation](https://github.com/MohammedFaisal112/Bald_Classification/tree/main/Complete_Explanation)
 
@@ -14,8 +14,9 @@ Results:
 [Output File](https://github.com/MohammedFaisal112/Bald_Classification/tree/main/Result_imgs)
 
 ## Sample Outputs:
+### Sample Output 1:
 ![Sample Output 1](https://github.com/MohammedFaisal112/Bald_Classification/blob/main/Result_imgs/1.png)
-
+### Sample Output 2:
 ![Sample Output 2](https://github.com/MohammedFaisal112/Bald_Classification/blob/main/Result_imgs/2.png)
-
+### Sample Output 3:
 ![Sample Output 3](https://github.com/MohammedFaisal112/Bald_Classification/blob/main/Result_imgs/3.png)
