@@ -1,0 +1,11 @@
+Task 1
+Detect weather it's a bald or not:
+
+(Dataset is given in an code,Result images was also there.) 
+
+Done it on google colaboratory.
+Load a dataset in a Zip file and unzip it.To different file that specify bald and Not bald.In an fldr1 and fldr2 read both of the files.Then in an list of images append the images in a vector format.Join the path then read that path in cv2.Resize it as (48,48).First append the Bald images data then Not Bald images data.checking for a complete length of a images list.Then from matplotlib plotting one of the images just for confirming purpose.Then in a path_list add the path of a data.Then checking the length.Checking certain paths.Then in dependent feature taking out the parameter which indicates Baldness or not.Then in real_dependent_feature variable if it's a bald then indicate it as 1 else indicate it as 0.Then convert it into an array.Then value counts and plotting the bar graph.Then normalize the image in image_f variable divide it by 255 so it'll normalize the value between 0 to 1 like a MinMax Scaling.Then Split the data for training and testing purpose.Checking the shape and length of the Training and Testing data.
+This Model is trained on a deep learning Convolutional neural network(CNN).Things involved(Forward propogation:kernels,paddings,regularization,dropout. Backward propogation:Activation Function='ReLu'(Rectified Linear units) for updation of a kernel values,maxpooling_layer,flatten it then put it into a Ann(Fully Connected Neural Network).By declaring a dense(no.of nodes in an hidden layer).Same for ANN(Forward and Backward Propogation) as my task isto define a person is a bald or not it's a classification problem so i used relu in the hidden and sigmoid activation function in an output layer,with an adam optimizer(best optimizer it'll have smoothing and adaptive learning rate).
+So, i'll get an output in a range of 0 or 1 and declared a threshold value if it's a 0 then person isn't a bald else it's a bald.
+Then check out the loss and the accuracy of a model.
+plotting a Model loss and Heat map.
